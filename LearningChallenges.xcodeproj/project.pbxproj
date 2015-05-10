@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2624151F1AFEEAF400B99838 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2624151E1AFEEAF400B99838 /* main.cpp */; };
+		262415281AFEECCA00B99838 /* Converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262415261AFEECCA00B99838 /* Converter.cpp */; };
+		2624152B1AFF135D00B99838 /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262415291AFF135D00B99838 /* Tester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2624151B1AFEEAF400B99838 /* LearningChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		2624151E1AFEEAF400B99838 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		262415261AFEECCA00B99838 /* Converter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Converter.cpp; sourceTree = "<group>"; };
+		262415271AFEECCA00B99838 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		262415291AFF135D00B99838 /* Tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tester.cpp; sourceTree = "<group>"; };
+		2624152A1AFF135D00B99838 /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		2624151D1AFEEAF400B99838 /* LearningChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				262415251AFEEC6C00B99838 /* ConvertDecimalToBinary */,
 				2624151E1AFEEAF400B99838 /* main.cpp */,
 			);
 			path = LearningChallenges;
+			sourceTree = "<group>";
+		};
+		262415251AFEEC6C00B99838 /* ConvertDecimalToBinary */ = {
+			isa = PBXGroup;
+			children = (
+				262415261AFEECCA00B99838 /* Converter.cpp */,
+				262415271AFEECCA00B99838 /* Converter.h */,
+				262415291AFF135D00B99838 /* Tester.cpp */,
+				2624152A1AFF135D00B99838 /* Tester.h */,
+			);
+			path = ConvertDecimalToBinary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262415281AFEECCA00B99838 /* Converter.cpp in Sources */,
 				2624151F1AFEEAF400B99838 /* main.cpp in Sources */,
+				2624152B1AFF135D00B99838 /* Tester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
