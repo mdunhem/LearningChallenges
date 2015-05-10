@@ -10,6 +10,7 @@
 		2624151F1AFEEAF400B99838 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2624151E1AFEEAF400B99838 /* main.cpp */; };
 		262415281AFEECCA00B99838 /* Converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262415261AFEECCA00B99838 /* Converter.cpp */; };
 		2624152B1AFF135D00B99838 /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262415291AFF135D00B99838 /* Tester.cpp */; };
+		2624152F1AFF23B500B99838 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2624152D1AFF23B500B99838 /* LinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		262415271AFEECCA00B99838 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		262415291AFF135D00B99838 /* Tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tester.cpp; sourceTree = "<group>"; };
 		2624152A1AFF135D00B99838 /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
+		2624152D1AFF23B500B99838 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		2624152E1AFF23B500B99838 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		2624151D1AFEEAF400B99838 /* LearningChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				2624152C1AFF216100B99838 /* ReversePrintLinkedList */,
 				262415251AFEEC6C00B99838 /* ConvertDecimalToBinary */,
 				2624151E1AFEEAF400B99838 /* main.cpp */,
 			);
@@ -78,6 +82,15 @@
 				2624152A1AFF135D00B99838 /* Tester.h */,
 			);
 			path = ConvertDecimalToBinary;
+			sourceTree = "<group>";
+		};
+		2624152C1AFF216100B99838 /* ReversePrintLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				2624152D1AFF23B500B99838 /* LinkedList.cpp */,
+				2624152E1AFF23B500B99838 /* LinkedList.h */,
+			);
+			path = ReversePrintLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +151,7 @@
 			files = (
 				262415281AFEECCA00B99838 /* Converter.cpp in Sources */,
 				2624151F1AFEEAF400B99838 /* main.cpp in Sources */,
+				2624152F1AFF23B500B99838 /* LinkedList.cpp in Sources */,
 				2624152B1AFF135D00B99838 /* Tester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
