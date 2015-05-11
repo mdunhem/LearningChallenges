@@ -18,8 +18,6 @@ namespace ReversePrintLinkedList {
     struct Node {
         int value;
         Node *next;
-        
-    public:
         Node();
         Node(int);
     };
@@ -28,7 +26,10 @@ namespace ReversePrintLinkedList {
         Node *tail;
         
     public:
+        LinkedList();
         void add(int);
+        bool hasNext();
+        Node* getNext();
     };
 }
 

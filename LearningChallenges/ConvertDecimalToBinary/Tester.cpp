@@ -26,5 +26,7 @@ namespace ConvertDecimalToBinary {
                 break;
             }
         }
+        // For good measure, we should clean up after ourselves
+        delete converter;
     }
 }

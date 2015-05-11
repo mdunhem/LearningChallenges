@@ -7,15 +7,23 @@
 //
 
 #include <iostream>
+#include "ReversePrintLinkedList/ReversePrintLinkedListTest.h"
 #include "ConvertDecimalToBinary/Tester.h"
+
 
 void runConverterTest() {
     ConvertDecimalToBinary::Tester tester;
     tester.run();
 }
 
+void runReversePrintLinkedListTest() {
+    ReversePrintLinkedList::ReversePrintLinkedListTest tester;
+    tester.run();
+}
+
 int main(int argc, const char * argv[]) {
-    runConverterTest();
+//    runConverterTest();
+    runReversePrintLinkedListTest();
     
     return 0;
 }

@@ -11,6 +11,7 @@
 		262415281AFEECCA00B99838 /* Converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262415261AFEECCA00B99838 /* Converter.cpp */; };
 		2624152B1AFF135D00B99838 /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 262415291AFF135D00B99838 /* Tester.cpp */; };
 		2624152F1AFF23B500B99838 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2624152D1AFF23B500B99838 /* LinkedList.cpp */; };
+		26CFF5B51B005BF1004DF61E /* ReversePrintLinkedListTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CFF5B31B005BF1004DF61E /* ReversePrintLinkedListTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		2624152A1AFF135D00B99838 /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 		2624152D1AFF23B500B99838 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 		2624152E1AFF23B500B99838 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		26CFF5B31B005BF1004DF61E /* ReversePrintLinkedListTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReversePrintLinkedListTest.cpp; sourceTree = "<group>"; };
+		26CFF5B41B005BF1004DF61E /* ReversePrintLinkedListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReversePrintLinkedListTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			children = (
 				2624152D1AFF23B500B99838 /* LinkedList.cpp */,
 				2624152E1AFF23B500B99838 /* LinkedList.h */,
+				26CFF5B31B005BF1004DF61E /* ReversePrintLinkedListTest.cpp */,
+				26CFF5B41B005BF1004DF61E /* ReversePrintLinkedListTest.h */,
 			);
 			path = ReversePrintLinkedList;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				262415281AFEECCA00B99838 /* Converter.cpp in Sources */,
 				2624151F1AFEEAF400B99838 /* main.cpp in Sources */,
+				26CFF5B51B005BF1004DF61E /* ReversePrintLinkedListTest.cpp in Sources */,
 				2624152F1AFF23B500B99838 /* LinkedList.cpp in Sources */,
 				2624152B1AFF135D00B99838 /* Tester.cpp in Sources */,
 			);
@@ -269,6 +275,7 @@
 				262415241AFEEAF400B99838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

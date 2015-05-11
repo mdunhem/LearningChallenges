@@ -12,16 +12,30 @@
 namespace ReversePrintLinkedList {
     
     Node::Node() {
-        value = 0;
+        value = NULL;
+        next = nullptr;
     }
     
     Node::Node(int value) {
         this->value = value;
+        next = nullptr;
+    }
+    
+    LinkedList::LinkedList() {
+        tail = nullptr;
     }
     
     void LinkedList::add(int value) {
         Node *node = new Node(value);
         node->next = tail;
         tail = node;
+    }
+    
+    bool LinkedList::hasNext() {
+        return tail->next != nullptr;
+    }
+    
+    Node* LinkedList::getNext() {
+        return tail;
     }
 }
