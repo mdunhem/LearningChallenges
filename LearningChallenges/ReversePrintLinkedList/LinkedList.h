@@ -20,6 +20,7 @@ namespace ReversePrintLinkedList {
         Node *next;
         Node();
         Node(int);
+        ~Node();
     };
     
     class LinkedList {
@@ -27,9 +28,11 @@ namespace ReversePrintLinkedList {
         
     public:
         LinkedList();
+        ~LinkedList();
         void add(int);
         bool hasNext();
         Node* getNext();
+        void nonDestructivelyIterate(void (*iterator)(int));
     };
 }
 

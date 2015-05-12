@@ -17,6 +17,8 @@ namespace ReversePrintLinkedList {
         
     public:
         void run();
+        // Needs to be static in order to be used in the LinkedList iterator
+        static void iterateLinkedList(int value);
     };
 }
 

@@ -11,10 +11,10 @@
 
 namespace ReversePrintLinkedList {
     
+    static std::string output;
+    
     void ReversePrintLinkedListTest::run() {
-        std::string output;
         LinkedList linkedList;
-        Node *node;
         
         std::cout << "Prints out a linked list in reverse.\n\n";
         
@@ -25,16 +25,13 @@ namespace ReversePrintLinkedList {
         linkedList.add(3);
         linkedList.add(4);
         
-        node = linkedList.getNext();
-        
-        while (node->next != nullptr) {
-            output.insert(0, std::to_string(node->value));
-            node = node->next;
-        }
-        
-        output.insert(0, std::to_string(node->value));
+        linkedList.nonDestructivelyIterate(&ReversePrintLinkedListTest::iterateLinkedList);
         
         std::cout << output;
+    }
+    
+     void ReversePrintLinkedListTest::iterateLinkedList(int value) {
+        output.insert(0, std::to_string(value));
     }
     
 }

@@ -21,8 +21,17 @@ namespace ReversePrintLinkedList {
         next = nullptr;
     }
     
+    Node::~Node() {
+        delete next;
+    }
+    
     LinkedList::LinkedList() {
         tail = nullptr;
+    }
+    
+    LinkedList::~LinkedList() {
+        // iterates through the list by itself
+        delete tail;
     }
     
     void LinkedList::add(int value) {
@@ -37,5 +46,15 @@ namespace ReversePrintLinkedList {
     
     Node* LinkedList::getNext() {
         return tail;
+    }
+    
+    // Move iteration into this class, more appropriate
+    void LinkedList::nonDestructivelyIterate(void (*iterator)(int)) {
+        Node *node = tail;
+        while (node != nullptr) {
+            iterator(node->value);
+            node = node->next;
+        }
+        delete node;
     }
 }
